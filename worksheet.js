@@ -75,3 +75,18 @@ function printMovieName(){
 }
 
 printMovieName()
+
+function usersFavoriteBand(){
+    usersBand= prompt("Who is your favorite band?")
+    return usersBand
+}
+
+console.log(result=usersFavoriteBand())
+
+function concertDisplay(musicalAct){
+    myStreet= prompt("What is the name of your street?")
+    console.log(`It would be great if ${musicalAct} played a show on ${myStreet}!`)
+}
+
+concertDisplay(usersBand)
+
