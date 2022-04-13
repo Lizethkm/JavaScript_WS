@@ -67,3 +67,11 @@ for (let secondNumber=1; secondNumber < 11; secondNumber++){
         console.log('goodbye')
     }
 }
+
+//Functions
+function printMovieName(){
+    myFavoriteMovie= 'Coraline'
+    console.log(myFavoriteMovie) 
+}
+
+printMovieName()
