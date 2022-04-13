@@ -47,3 +47,23 @@ if (randomNumber>= 6 && randomNumber <= 8){
 if (randomNumber== 9 || randomNumber== 10){
     console.log('Hendrix')
 }
+
+//For Loop
+for(let i=0; i < 7; i++){
+    console.log("JavaScript is cool!")
+}
+
+
+for(let number= 0; number < 10; number++){
+    console.log(number)
+}  
+
+for (let secondNumber=1; secondNumber < 11; secondNumber++){
+    if (secondNumber== 1 || secondNumber== 3 || secondNumber==5 || secondNumber==7 || secondNumber==9 || secondNumber==11){
+        console.log('hello')
+    }
+
+    else if (secondNumber== 2 || secondNumber == 4 || secondNumber== 6 || secondNumber== 8 || secondNumber==10){
+        console.log('goodbye')
+    }
+}
