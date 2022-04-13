@@ -90,3 +90,6 @@ function concertDisplay(musicalAct){
 
 concertDisplay(usersBand)
 
+//Arrays
+let desktopItems=['laptop', 'mouse','notebook'];
+console.log(desktopItems[1])
